@@ -1,0 +1,43 @@
+{
+  "name": "centenos-hvac-website",
+  "version": "1.0.0",
+  "description": "Commercial HVAC Services Website for Centeno's HVAC Services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "hvac",
+    "commercial",
+    "heating",
+    "ventilation",
+    "air-conditioning",
+    "website"
+  ],
+  "author": "Centeno's HVAC Services",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "@mui/joy": "^5.0.0-beta.24",
+    "@mui/material": "^5.15.3",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/centenos-hvac-website.git"
+  }
+}
