@@ -1,0 +1,135 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+    
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-image i {
+        font-size: 8rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 200px;
+        justify-content: center;
+    }
+    
+    /* Metal Fabrication Page Responsive */
+    .section-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .fabrication-tech .section-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .project-form {
+        padding: 2rem;
+    }
+    
+    .section-icon i {
+        font-size: 5rem;
+    }
+    
+    .capabilities-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .industries-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .fabrication-hero .hero-content {
+        text-align: center;
+    }
+    
+    .fabrication-hero .hero-text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 100px 0 60px;
+    }
+    
+    .services,
+    .about,
+    .contact,
+    .design-build,
+    .fabrication-tech,
+    .project-vision,
+    .sheet-metal,
+    .pipe-fabrication,
+    .industries-served {
+        padding: 60px 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .services h2,
+    .about h2,
+    .contact h2,
+    .section-text h2,
+    .project-vision h2,
+    .sheet-metal h2,
+    .pipe-fabrication h2,
+    .industries-served h2 {
+        font-size: 2rem;
+    }
+    
+    .fabrication-hero .hero-text h1 {
+        font-size: 1.8rem;
+    }
+    
+    .project-form {
+        padding: 1.5rem;
+    }
+    
+    .section-icon i {
+        font-size: 4rem;
+    }
+    
+    .capability-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+}
